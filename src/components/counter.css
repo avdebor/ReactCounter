@@ -1,0 +1,38 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.counter {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: rgb(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.counter p {
+  text-align: center;
+  font-size: 12vw;
+  font-weight: 300;
+  line-height: 1;
+}
+.buttons {
+  text-align: center;
+  margin-top: 2rem;
+}
+.buttons button {
+  font-size: 2vw;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+.sub {
+  background-color: orangered;
+  color: #fff;
+}
+.add {
+  background-color: green;
+  color: #fff;
+}
